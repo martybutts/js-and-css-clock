@@ -1,10 +1,10 @@
 html {
   background:
   linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
   ),
-  url(https://upload.wikimedia.org/wikipedia/commons/9/94/View_of_Quinebaug_from_Butts_Bridge,_Canterbury,_CT.JPG);
+  url(https://static.pexels.com/photos/48694/pexels-photo-48694.jpeg);
   background-size: cover;
   font-family:'helvetica neue';
   text-align: center;
@@ -44,11 +44,15 @@ body {
 .hand {
   width:50%;
   height:6px;
-  background:grey;
+  background:black;
   position: absolute;
   top:50%;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.sec-hand {
+  background: orangered;
 }
